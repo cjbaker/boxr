@@ -69,7 +69,7 @@ module Boxr
       box_sub_type: box_sub_type,
       aud: "https://api.box.com/oauth2/token",
       jti: SecureRandom.hex(64),
-      exp: (Time.now.utc + 10).to_i
+      exp: (Time.now.utc + 55).to_i
     }
 
     additional_headers = {}
